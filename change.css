@@ -1,0 +1,225 @@
+* {
+    margin:0;
+    padding:0;
+    color:white;
+    box-sizing:border-box;
+}
+.a1 { 
+    height:690px;
+    background-image:url('image/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    box-shadow:0px 0px 1000px 180px black inset;
+}
+.a2 { height:580px;}
+.a3 { height:580px;}
+.a4 { height:580px;}
+.a5 {
+     height:580px; 
+     display:flex;  
+}
+.a6 { height:950px;}
+.a7 {height:490px;}
+.line {
+    background-color:rgb(37, 36, 36);
+    height:7px;
+}
+.a {
+    height:480px;
+    margin-bottom:0;
+}
+.image, .image-2 {
+   display:flex;
+   align-items:center;
+   margin-top:85px;
+   margin-left:200px;
+   background-color:black;
+}
+.image img {
+   width:550px;
+   height:450px;
+}
+.text-1, .text-3 {
+font-size:51px;
+font-weight:bold;
+background-color:black;
+}
+.text-2, .text-4 {
+   background-color:black;
+   font-size:24px;
+
+}
+.content-5, .content-3 {
+   margin-right:120px;
+}
+.image-2 img {
+   width:600px;
+   height:450px;
+}
+.row-1 img {
+   width:200px;
+   height: 120px;
+}
+.last-content {
+   margin-left:180px;
+}
+.last-content a {
+   color:rgb(187, 181, 181);
+   background-color:black;
+   display:block;
+   margin-bottom:12px;
+}
+.last-content-2  {
+   display:flex;
+}
+.last-content-2 .div-2, .last-content-2 .div-3   {
+margin-left:300px;
+}
+
+/* Accordion */
+
+.accordion {
+   background-color:rgb(37, 36, 36);
+   color:white;
+   cursor: pointer;
+   /*padding: 24px;*/
+   height:95px;
+   width: 80%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 25px;
+   transition: 0.4s;
+   margin-top:5px;
+   margin-left:142px;
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   padding: 0 25px;
+ }
+ 
+ .active, .accordion:hover {
+   background-color: rgb(68, 66, 66);
+   transition: 0.5s ease;
+ }
+ 
+ .accordion:after {
+   content: '\002B';
+   color: white;
+   float: right;
+   margin-left: 5px;
+   font-size:80px;
+   margin-bottom:20px;
+ }
+ 
+ .active:after {
+   content: "\2212";
+ }
+ 
+ .panel {
+   width:80%;
+   padding: 0 18px;
+   background-color:rgb(37, 36, 36);
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   margin-left:142px;
+   margin-top:3px;
+   font-size:25px;
+ }
+
+/* Accordion  */
+
+ .boundary .box {
+   width:330px;
+   height:110px;
+   position:absolute;
+   left: 350px;
+   top:340px;
+}
+.box {
+   display:flex;
+   align-items:center;
+}
+.box img {
+   width:68px;
+   height:90px;
+   margin-left:15px;
+}
+.textstyle {
+   margin-left:17px;
+}
+.box i {
+   font-size:25px;
+   margin-left:62px;
+}
+.a6 .text {
+   font-size:50px;
+   font-weight:bold;
+   text-align:center;
+}
+.row-6 .col-12 {
+   font-size:21px;
+   text-align:center;
+}
+.col-7 input {
+   margin-left:460px;
+}
+.col-5 .btn {
+   margin-left:-44px;
+}
+.content-1 {
+    font-size:50px;
+    font-weight:bolder;
+    text-align:center;
+    margin-top:190px;
+}
+.content-2 {
+    font-size:25px;
+    margin-top:18px;
+    text-align:center;
+}
+.content-3 {
+    font-size:20px;
+    margin-top:18px;
+    text-align:center;
+    margin-left:120px;
+}
+.row-1 img {
+    width:200px;
+    height:100px;
+    margin-left:100px;
+}
+.row-2 {
+    margin-top:25px;
+    display:flex;
+    align-items:center;
+}
+.row-1 {
+    display:flex;
+    align-items: center;
+}
+.row-1 img {
+margin-left:120px;
+}
+
+.row-1 .icon {
+   position:absolute;
+   top:5px;
+   left:262px;
+}
+.last-content-3 .icon {
+   position:absolute;
+   top:5px;
+   left:20px;
+}
+::placeholder {
+   color:rgb(219, 214, 214);
+}
+
+input:focus::placeholder {
+   font-size:10px;
+   position:absolute;
+   top:5px;
+}
